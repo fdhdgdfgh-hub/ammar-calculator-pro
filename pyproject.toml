@@ -1,0 +1,3 @@
+[tool.flet]
+app_name = "AmmarCalc"
+bundle_id = "com.ammar.calculator"
