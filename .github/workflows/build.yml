@@ -1,3 +1,4 @@
+
 name: Build APK
 on:
   push:
@@ -21,7 +22,7 @@ jobs:
           pip install flet
 
       - name: Build APK
-        uses: subhamtyagi/flet-build-action@v1
+        uses: flet-dev/flet-build-action@v1
         with:
           python-path: 'main.py'
           project-name: 'AmmarCalc'
